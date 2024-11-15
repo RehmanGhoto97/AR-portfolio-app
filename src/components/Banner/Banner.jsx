@@ -2,11 +2,11 @@
 
 import React from "react";
 import Image from "next/image";
-import grainImg from "../../assets/grains.png";
-import main2Img from "../../assets/man2.jpeg";
+import grainImg from "./../../assets/grains.png";
+import main2Img from "./../../assets/man2.jpeg";
 import { FiDownload } from "react-icons/fi";
-import { animate, motion } from "framer-motion";
-import { SlidUp } from "../Hero/Hero";
+import { motion } from "framer-motion";
+import { SlidUp } from "./../Hero/Hero";
 
 const BgGrain = {
   backgroundImage: `url(${grainImg.src})`,

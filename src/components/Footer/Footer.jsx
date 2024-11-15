@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { BsLinkedin } from "react-icons/bs";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import redBg2 from "../../assets/redbg2.png";
+import redBg2 from "./../../assets/redbg2.png";
 
 const bgStyle = {
 

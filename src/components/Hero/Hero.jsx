@@ -1,9 +1,9 @@
 "use client";
-import wall from "../../assets/wall.jpg";
+import wall from "./../../assets/wall.jpg";
 import Image from "next/image";
 import React from "react";
-import circleImg from "../../assets/red.png";
-import redManImg from "../../assets/red-man.png";
+import circleImg from "./../../assets/red.png";
+import redManImg from "./../../assets/red-man.png";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
 

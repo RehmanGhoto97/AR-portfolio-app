@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import sendEmail from "../../assets/send-email.png";
+import sendEmail from "./../../assets/send-email.png";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -104,7 +104,7 @@ const ContactForm = () => {
             data-nimg="1"
             src={sendEmail}
             alt="send email"
-            width={722} //
+            width={722} 
             height={491}
             className="w-[300px] lg:w-[400px] animate-rocket"
             style={{ color: "transparent" }}
